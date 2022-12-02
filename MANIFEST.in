@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vdemo_app *.css
+recursive-include vdemo_app *.csv
+recursive-include vdemo_app *.html
+recursive-include vdemo_app *.ico
+recursive-include vdemo_app *.js
+recursive-include vdemo_app *.json
+recursive-include vdemo_app *.md
+recursive-include vdemo_app *.png
+recursive-include vdemo_app *.py
+recursive-include vdemo_app *.svg
+recursive-include vdemo_app *.txt
+recursive-exclude vdemo_app *.pyc
