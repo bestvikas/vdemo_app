@@ -1,0 +1,154 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:testDemo-{MM}-{YYYY}-{#####}",
+ "creation": "2022-12-02 12:42:23.200498",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "label1",
+  "label2",
+  "attach",
+  "cb1_column",
+  "button",
+  "check",
+  "color",
+  "sb1_section",
+  "date_and_time",
+  "float",
+  "sb2_section",
+  "int",
+  "text",
+  "select",
+  "text_editor",
+  "child_table"
+ ],
+ "fields": [
+  {
+   "fieldname": "label1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Label1",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "label2",
+   "fieldtype": "Int",
+   "label": "Label2"
+  },
+  {
+   "fieldname": "attach",
+   "fieldtype": "Attach",
+   "label": "Attach"
+  },
+  {
+   "fieldname": "button",
+   "fieldtype": "Button",
+   "label": "Button"
+  },
+  {
+   "default": "0",
+   "fieldname": "check",
+   "fieldtype": "Check",
+   "label": "Check"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "Color"
+  },
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Date and Time"
+  },
+  {
+   "fieldname": "float",
+   "fieldtype": "Float",
+   "label": "Float"
+  },
+  {
+   "fieldname": "int",
+   "fieldtype": "Int",
+   "label": "Int"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Text",
+   "label": "Text"
+  },
+  {
+   "fieldname": "select",
+   "fieldtype": "Select",
+   "label": "Select",
+   "options": "Option 1\nOption 2\nOption 3\nOption 4"
+  },
+  {
+   "fieldname": "text_editor",
+   "fieldtype": "Text Editor",
+   "label": "Text Editor"
+  },
+  {
+   "fieldname": "cb1_column",
+   "fieldtype": "Column Break",
+   "label": "CB1"
+  },
+  {
+   "fieldname": "sb1_section",
+   "fieldtype": "Section Break",
+   "label": "SB1"
+  },
+  {
+   "fieldname": "sb2_section",
+   "fieldtype": "Section Break",
+   "label": "SB2"
+  },
+  {
+   "fieldname": "child_table",
+   "fieldtype": "Table",
+   "label": "Child Table",
+   "options": "Type"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-12-02 15:52:15.089512",
+ "modified_by": "Administrator",
+ "module": "vdemo app",
+ "name": "Demo DocType",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Script Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
